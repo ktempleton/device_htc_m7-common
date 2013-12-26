@@ -142,6 +142,7 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_NO_SCREEN_BLANK := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+HAVE_SELINUX := true
 
 # Charge mode
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/htc_lpm/lpm_mode
